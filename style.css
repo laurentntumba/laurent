@@ -238,7 +238,7 @@ background-color: #acaba6;
 }
 
 
-/* competance  */
+/* competance */
 
 .parcours h1{
     font-family: 'Times New Roman', Times, serif;
@@ -297,7 +297,8 @@ section{
 
 
 
-@media screen and (max-width:980px){
+@media screen
+ and (max-width:980px){
 .past .navebar{
 margin-left: 0px;
 margin-bottom: 20px;
