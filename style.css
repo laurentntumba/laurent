@@ -290,8 +290,8 @@ h2{
 }
 
    
-@media screen and (max-width:180px){
-    .past .navebar {
+@media screen and (max-width:970px){
+    .past .navebar a {
         margin-left: 0px;
         margin-bottom: 0px;
         font-family: Bodoni MT Black;
