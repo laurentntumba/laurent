@@ -29,7 +29,7 @@ body{
     align-items: center;
     transform: 0.5s;
     object-fit: cover;
-    font-size: 10px;
+    font-size: 11px;
     
 }
 ul li:hover{
@@ -54,18 +54,20 @@ ul li:hover{
 .navebar{
     display: flex;
     position: relative;
-   
+   flex-wrap: nowrap;
 
 }
 .navebar li{
     list-style: none;
+    flex-wrap: nowrap;
 }
 .navebar a{
     color:#fff;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 10px;
     font-weight: 50;
     margin: 20px;
+    flex-flow: nowrap;
 }
 .force{ 
     position: relative;
@@ -87,7 +89,7 @@ ul li:hover{
         border-bottom: 5px solid #ff0000;
 }
 .P1{
-    
+        flex-wrap: nowrap;
         color: #fff;
         font-size:20px;
         text-align:center; 
@@ -98,11 +100,11 @@ ul li:hover{
 }
 .P2{
     color: #fff;
-    
+    flex-wrap: nowrap;
      background: #00140e;
   
     padding-bottom: 2px;
-    font-size:50px;
+    font-size:40px;
     text-align: center;
 }
 
@@ -203,7 +205,9 @@ section{
     display: table;
     clear: both;
 }
-
+.vour{
+    flex-flow: nowrap;
+}
 /* ça c'est le footer de mon site*/
 
 
@@ -214,6 +218,7 @@ footer{
     text-align: center;
     border-top: 5px solid #ff0000;
     object-fit: cover;
+    flex-flow: nowrap;
 }
 form{
     margin: 0 auto;
@@ -285,14 +290,15 @@ h2{
 }
 
    
-@media screen and (max-width:680px){
-    nav .onglets{
+@media screen and (max-width:180px){
+    .past .navebar {
         margin-left: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         font-family: Bodoni MT Black;
+        font-size: 10px;
     }
     .ji{
-        font-size: 90px;
+        font-size: 50px;
     }
   header img{
       margin-left: 0px;
@@ -308,7 +314,7 @@ h2{
 
   }
    .P2{
-       font-size: 20px;
+       font-size: 0px;
        text-align: center;
    }
   .P1{
@@ -317,8 +323,8 @@ h2{
       margin-right: 0px;
   }
   section .imagesprestations img{
-      width: 90px;
-      height: 150px;
+      width: 80px;
+      height: 140px;
       margin-right: 0px;
       padding-left: 0px;
   }
@@ -329,6 +335,16 @@ h2{
   .navebar a{
       margin-left: 0px;
       font-weight: 0px;
+      font-size: 5px;
   }
-  
+   
+}
+@media screen and (max-width:980px){
+    .vour{
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .frot{
+        padding-top: 0px;
+    }
 }
