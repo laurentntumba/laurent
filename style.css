@@ -8,7 +8,7 @@ body{
 .ji {
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 100px;
+    font-size: 120px;
     padding-bottom: 15px;
     align-items: center;
     flex-wrap: wrap;
@@ -29,7 +29,7 @@ body{
     align-items: center;
     transform: 0.5s;
     object-fit: cover;
-    font-size: 11px;
+    font-size: 12px;
     
 }
 ul li:hover{
@@ -42,8 +42,8 @@ ul li:hover{
     font-weight: bold;
     font-size:2em;
     text-decoration: none; 
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
 }
 .logo span{
@@ -239,10 +239,10 @@ textarea{
 }
 button{
     font-size: 1.5em;
-    background-color: #FFFAE1
+    background-color: rgb(184, 6, 6);
 }
 button:hover{
-    background-color: rgb(184, 6, 6);
+    background-color: rgb(55, 0, 255);
     color: #FFFAE1;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -298,7 +298,8 @@ h2{
         font-size: 10px;
     }
     .ji{
-        font-size: 50px;
+        font-size: 70px;
+        margin-top: 20px;
     }
   header img{
       margin-left: 0px;
@@ -314,7 +315,7 @@ h2{
 
   }
    .P2{
-       font-size: 0px;
+       font-size: 20px;
        text-align: center;
    }
   .P1{
